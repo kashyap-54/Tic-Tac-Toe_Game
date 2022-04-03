@@ -1,0 +1,41 @@
+body{
+    background-color: #444;
+    color: white;
+    margin: auto;
+    font: 30px "Century Gothic", Futura, sans-seriff;
+}
+.container{
+
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    
+}
+
+table td {
+    border: 2px solid black;
+    /* border-left: 2px solid black; */
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    /* display: grid; */
+    grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 100px 200px;
+    place-items: center;
+    
+}
+
+.turn{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+table{
+    border-collapse: collapse;
+}
